@@ -1,0 +1,27 @@
+|--------------|
+| About MyECF  |
+|--------------|
+
+Some of the students even don't know where the engineering colleges are located in their areas.So this project will help them to locate where the colleges are and which courses they are offering
+and the intake seats.
+
+|----------------------|
+| Needs of the  My ECF | 
+|----------------------|
+
+1) As now due to this pandemic situation most of the students are unable to visit the colleges so our website will help them to choose there future ready college.
+
+2) Our website will give all relevant info regarding the type of colleges such as -
+i)Autonomous College(GOVT).   ii)Private College.
+
+3) AIso information regarding prefferred University by college is also given if college is not Autonomous.
+
+4) Information regarding campus is also provided so student can get idea about facilities available in college.
+
+5) Information regarding placement is also given so student get idea about which companies are visiting the college for recruitment process. 
+
+5) To take admission in mentioned college in your area, admission process is done on what basis (score of CET exam or JEE exam or both) info regarding this criteria is also given through our Website.
+
+6) Information related to course is also given such as :i) BE. ii) B.Tech. iii) DipIoma.
+
+7) Fee structure for different categories in mentioned college is also provided so student will be ready financially to take admission  in there preferred college.
