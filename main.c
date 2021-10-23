@@ -59,12 +59,28 @@ void branches(char b[33]) // To Call the .text file
 
 void about(char b[33]) // To Call the .text file
 {
-    printf("\n\t\t\t\t\t\t--- %s Engineering ---\n\n", b);
+    // printf("\n\t\t\t\t\t\t--- %s Engineering ---\n\n", b);
     FILE *fptr;
     int no;
     if (b == "About")
     {
         fptr = fopen("aboutMyECF.txt", "r");
+        print(fptr);
+        printf("\n");
+    }
+}
+
+
+// For More information 
+
+void info(char b[33]) // To Call the .text file
+{
+    // printf("\n\t\t\t\t\t\t--- %s Engineering ---\n\n", b);
+    FILE *fptr;
+    int no;
+    if (b == "Information")
+    {
+        fptr = fopen("links.txt", "r");
         print(fptr);
         printf("\n");
     }
@@ -83,7 +99,7 @@ int main() // Homepage to select the Choice according to user choice
 
     while (1)
     {
-        printf(" 1] Select Branch \t 2] About us \t 3] Exit \t\n\n\t   Enter your choice: ");
+        printf("\n\n 1] Select Branch \t 2] About us \t 3] More information \t 4] Exit \t\n\n\t   Enter your choice: ");
         scanf("%d", &choice);
 
         switch (choice)
@@ -131,6 +147,9 @@ int main() // Homepage to select the Choice according to user choice
             break;
 
         case 3:
+            info("Information");
+            break;
+        case 4:
             printf("\n\n~~ You have exit successfully from application ~~\n");
             printf("\n\t       ~ THANK YOU! ~\n\n");
             exit(1);
