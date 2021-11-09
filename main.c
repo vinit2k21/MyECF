@@ -93,6 +93,7 @@ void about(int choice) // To Call the .text file
         fptr = fopen("aboutMyECF.txt", "r");
         print(fptr);
         printf("\n");
+        fclose(fptr);
     }
 }
 
@@ -108,6 +109,7 @@ void info(int choice) // To Call the .text file
         fptr = fopen("links.txt", "r");
         print(fptr);
         printf("\n");
+        fclose(fptr);
     }
 }
 
